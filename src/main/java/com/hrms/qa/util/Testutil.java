@@ -64,7 +64,7 @@ public class Testutil {
 		//File f1 = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		//FileUtils.copyFile(f1, new File("D:\\TestResults.png"));
 	}
-	
+	 //Util modified
 	/*
 	public static void runTimeInfo(String messageType, String message) throws InterruptedException {
 		js = (JavascriptExecutor) driver;
