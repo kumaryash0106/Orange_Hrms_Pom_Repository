@@ -8,7 +8,7 @@
     <classes>
       <class name="com.hrms.qa.testcases.LoginPageTest"/>
       <class name="com.hrms.qa.testcases.HomePageTest"/>
-      <class name="com.hrms.qa.testcases.AddEmpTest"/>
+     
     </classes>
   </test> <!-- Test1 -->
 </suite> <!-- Suite1 -->
