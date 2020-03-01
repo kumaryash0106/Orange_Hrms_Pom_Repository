@@ -43,7 +43,7 @@ public class AddEmp extends Base {
 		*/
 		
 		
-		Thread.sleep(2000);
+		Thread.sleep(4000);
 		String empid=driver.findElement(By.xpath("//input[@id='txtEmployeeId']")).getAttribute("value");
 		System.out.println(empid);
 		firstname.sendKeys(ftname);

@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite1" class="navigator-link">
-              <span class="suite-name border-failed">Suite1</span>
+              <span class="suite-name border-passed">Suite1</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,26 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">11 methods, 2 failed,   9 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite1" class="hide-methods failed suite-Suite1"> (hide)</a> <!-- hide-methods failed suite-Suite1 -->
-                      <a href="#" panel-name="suite-Suite1" class="show-methods failed suite-Suite1"> (show)</a> <!-- show-methods failed suite-Suite1 -->
-                    </span>
-                    <div class="method-list-content failed suite-Suite1">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite1" title="com.hrms.qa.testcases.AddEmpTest" class="method navigator-link" hash-for-method="AddnewEmp(MC, shan)">AddnewEmp(MC, shan)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite1" title="com.hrms.qa.testcases.AddEmpTest" class="method navigator-link" hash-for-method="AddnewEmp(BC, maan)">AddnewEmp(BC, maan)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite1 -->
+                    <span class="method-stats">6 methods,   6 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -119,21 +100,6 @@
                       <a href="#" panel-name="suite-Suite1" class="show-methods passed suite-Suite1"> (show)</a> <!-- show-methods passed suite-Suite1 -->
                     </span>
                     <div class="method-list-content passed suite-Suite1">
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite1" title="com.hrms.qa.testcases.AddEmpTest" class="method navigator-link" hash-for-method="AddnewEmp(HK, dhann)">AddnewEmp(HK, dhann)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite1" title="com.hrms.qa.testcases.AddEmpTest" class="method navigator-link" hash-for-method="AddnewEmp(Anil, selenium)">AddnewEmp(Anil, selenium)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite1" title="com.hrms.qa.testcases.AddEmpTest" class="method navigator-link" hash-for-method="AddnewEmp(BK, taan)">AddnewEmp(BK, taan)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite1" title="com.hrms.qa.testcases.HomePageTest" class="method navigator-link" hash-for-method="HomePageTitleTest">HomePageTitleTest</a> <!-- method navigator-link -->
@@ -176,84 +142,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite1" class="panel Suite1">
-          <div class="suite-Suite1-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.hrms.qa.testcases.AddEmpTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="AddnewEmp(MC, shan)">
-                  </a> <!-- AddnewEmp(MC, shan) -->
-                  <span class="method-name">AddnewEmp</span>
-                  <span class="parameters">(MC, shan)</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;txtEmployeeId&apos;]&quot;}
-  (Session info: chrome=80.0.3987.122)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;LENOVO-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;11.0.5&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\AMARKU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51091}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: f679662f6df5b9ece2e7f8ee40de9d8a
-*** Element info: {Using=xpath, value=//input[@id=&apos;txtEmployeeId&apos;]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-	at com.sun.proxy.$Proxy11.findElement(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
-	at com.hrms.qa.pages.AddEmp.AddNewEmp(AddEmp.java:47)
-	at com.hrms.qa.testcases.AddEmpTest.AddnewEmp(AddEmpTest.java:49)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-... Removed 34 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="AddnewEmp(BC, maan)">
-                  </a> <!-- AddnewEmp(BC, maan) -->
-                  <span class="method-name">AddnewEmp</span>
-                  <span class="parameters">(BC, maan)</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;txtEmployeeId&apos;]&quot;}
-  (Session info: chrome=80.0.3987.122)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;LENOVO-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;11.0.5&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\AMARKU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51123}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: defb71220c28303928cc4dc32c7c8275
-*** Element info: {Using=xpath, value=//input[@id=&apos;txtEmployeeId&apos;]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-	at com.sun.proxy.$Proxy11.findElement(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
-	at com.hrms.qa.pages.AddEmp.AddNewEmp(AddEmp.java:47)
-	at com.hrms.qa.testcases.AddEmpTest.AddnewEmp(AddEmpTest.java:49)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-... Removed 34 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite1-class-failed -->
           <div class="suite-Suite1-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -312,38 +200,6 @@ Session ID: defb71220c28303928cc4dc32c7c8275
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite1-class-passed -->
-          <div class="suite-Suite1-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.hrms.qa.testcases.AddEmpTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="AddnewEmp(HK, dhann)">
-                  </a> <!-- AddnewEmp(HK, dhann) -->
-                  <span class="method-name">AddnewEmp</span>
-                  <span class="parameters">(HK, dhann)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="AddnewEmp(Anil, selenium)">
-                  </a> <!-- AddnewEmp(Anil, selenium) -->
-                  <span class="method-name">AddnewEmp</span>
-                  <span class="parameters">(Anil, selenium)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="AddnewEmp(BK, taan)">
-                  </a> <!-- AddnewEmp(BK, taan) -->
-                  <span class="method-name">AddnewEmp</span>
-                  <span class="parameters">(BK, taan)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite1-class-passed -->
         </div> <!-- panel Suite1 -->
         <div panel-name="test-xml-Suite1" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -361,7 +217,6 @@ Session ID: defb71220c28303928cc4dc32c7c8275
     &lt;classes&gt;
       &lt;class name=&quot;com.hrms.qa.testcases.LoginPageTest&quot;/&gt;
       &lt;class name=&quot;com.hrms.qa.testcases.HomePageTest&quot;/&gt;
-      &lt;class name=&quot;com.hrms.qa.testcases.AddEmpTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- OrangeHrms --&gt;
 &lt;/suite&gt; &lt;!-- Suite1 --&gt;
@@ -375,7 +230,7 @@ Session ID: defb71220c28303928cc4dc32c7c8275
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">OrangeHrms (3 classes)</span>
+                <span class="test-name">OrangeHrms (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -401,56 +256,36 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(11);
+data.addRows(6);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'AddnewEmp')
-data.setCell(0, 2, 'com.hrms.qa.testcases.AddEmpTest')
-data.setCell(0, 3, 7656);
+data.setCell(0, 1, 'loginTest')
+data.setCell(0, 2, 'com.hrms.qa.testcases.LoginPageTest')
+data.setCell(0, 3, 10161);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'AddnewEmp')
-data.setCell(1, 2, 'com.hrms.qa.testcases.AddEmpTest')
-data.setCell(1, 3, 7637);
+data.setCell(1, 1, 'VerifyReportlink')
+data.setCell(1, 2, 'com.hrms.qa.testcases.HomePageTest')
+data.setCell(1, 3, 2626);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'AddnewEmp')
-data.setCell(2, 2, 'com.hrms.qa.testcases.AddEmpTest')
-data.setCell(2, 3, 7633);
+data.setCell(2, 1, 'logoimagetest')
+data.setCell(2, 2, 'com.hrms.qa.testcases.LoginPageTest')
+data.setCell(2, 3, 533);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'AddnewEmp')
-data.setCell(3, 2, 'com.hrms.qa.testcases.AddEmpTest')
-data.setCell(3, 3, 7619);
+data.setCell(3, 1, 'VerifyWelcomeNote')
+data.setCell(3, 2, 'com.hrms.qa.testcases.HomePageTest')
+data.setCell(3, 3, 156);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'AddnewEmp')
-data.setCell(4, 2, 'com.hrms.qa.testcases.AddEmpTest')
-data.setCell(4, 3, 7608);
+data.setCell(4, 1, 'LoginPageTitleTest')
+data.setCell(4, 2, 'com.hrms.qa.testcases.LoginPageTest')
+data.setCell(4, 3, 133);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'loginTest')
-data.setCell(5, 2, 'com.hrms.qa.testcases.LoginPageTest')
-data.setCell(5, 3, 3180);
-data.setCell(6, 0, 6)
-data.setCell(6, 1, 'VerifyReportlink')
-data.setCell(6, 2, 'com.hrms.qa.testcases.HomePageTest')
-data.setCell(6, 3, 1638);
-data.setCell(7, 0, 7)
-data.setCell(7, 1, 'logoimagetest')
-data.setCell(7, 2, 'com.hrms.qa.testcases.LoginPageTest')
-data.setCell(7, 3, 161);
-data.setCell(8, 0, 8)
-data.setCell(8, 1, 'VerifyWelcomeNote')
-data.setCell(8, 2, 'com.hrms.qa.testcases.HomePageTest')
-data.setCell(8, 3, 92);
-data.setCell(9, 0, 9)
-data.setCell(9, 1, 'LoginPageTitleTest')
-data.setCell(9, 2, 'com.hrms.qa.testcases.LoginPageTest')
-data.setCell(9, 3, 32);
-data.setCell(10, 0, 10)
-data.setCell(10, 1, 'HomePageTitleTest')
-data.setCell(10, 2, 'com.hrms.qa.testcases.HomePageTest')
-data.setCell(10, 3, 21);
+data.setCell(5, 1, 'HomePageTitleTest')
+data.setCell(5, 2, 'com.hrms.qa.testcases.HomePageTest')
+data.setCell(5, 3, 36);
 window.suiteTableData['Suite1']= { tableData: data, tableDiv: 'times-div-Suite1'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 43 seconds</span>
+              <span class="suite-total-time">Total running time: 13 seconds</span>
               <div id="times-div-Suite1">
               </div> <!-- times-div-Suite1 -->
             </div> <!-- times-div -->
@@ -483,141 +318,74 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">LoginPageTitleTest</span>
-                <span class="method-start">7671 ms</span>
+                <span class="method-start">17007 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">7711 ms</span>
+                <span class="method-start">17156 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">SetUp</span>
-                <span class="method-start">8493 ms</span>
+                <span class="method-start">20284 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">logoimagetest</span>
-                <span class="method-start">19861 ms</span>
+                <span class="method-start">30267 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">20025 ms</span>
+                <span class="method-start">30800 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">SetUp</span>
-                <span class="method-start">21119 ms</span>
+                <span class="method-start">33253 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">loginTest</span>
-                <span class="method-start">39014 ms</span>
+                <span class="method-start">42830 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">42199 ms</span>
+                <span class="method-start">53007 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.hrms.qa.testcases.HomePageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">SetUp</span>
-                <span class="method-start">43734 ms</span>
+                <span class="method-start">54490 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">HomePageTitleTest</span>
-                <span class="method-start">50449 ms</span>
+                <span class="method-start">74721 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">50474 ms</span>
+                <span class="method-start">74761 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">SetUp</span>
-                <span class="method-start">51217 ms</span>
+                <span class="method-start">75698 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">VerifyWelcomeNote</span>
-                <span class="method-start">60428 ms</span>
+                <span class="method-start">101490 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">60523 ms</span>
+                <span class="method-start">101650 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">SetUp</span>
-                <span class="method-start">61267 ms</span>
+                <span class="method-start">102710 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">VerifyReportlink</span>
-                <span class="method-start">68446 ms</span>
+                <span class="method-start">119367 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">70087 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.hrms.qa.testcases.AddEmpTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">SetUp</span>
-                <span class="method-start">72386 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">AddnewEmp(Anil, selenium)</span>
-                <span class="method-start">79174 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">86811 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">SetUp</span>
-                <span class="method-start">87666 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">AddnewEmp(MC, shan)</span>
-                <span class="method-start">95702 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">103329 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">SetUp</span>
-                <span class="method-start">104059 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">AddnewEmp(BC, maan)</span>
-                <span class="method-start">114802 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">122457 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">SetUp</span>
-                <span class="method-start">124411 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">AddnewEmp(HK, dhann)</span>
-                <span class="method-start">146346 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">153957 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">SetUp</span>
-                <span class="method-start">154808 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">AddnewEmp(BK, taan)</span>
-                <span class="method-start">162472 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">170130 ms</span>
+                <span class="method-start">121995 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
